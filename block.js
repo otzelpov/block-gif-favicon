@@ -19,5 +19,5 @@ function isAnimated(link){
 link = findFavIcon()
 
 if(isAnimated(link)){
-    link.href = 'https://stackoverflow.com/favicon.ico';
+    link.href = 'https://www.mozilla.org/favicon.ico';
 }
