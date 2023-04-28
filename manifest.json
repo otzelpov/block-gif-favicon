@@ -1,0 +1,21 @@
+{
+
+    "manifest_version": 2,
+    "name": "block-gif-favicon",
+    "version": "1.0",
+
+    "description": "Block animated favicons, because they are annoying.",
+
+    "icons": {
+        "48": "icons/block-gif-favicon-48.png",
+        "96": "icons/block-gif-favicon-96.png"
+    },
+
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["block.js"]
+        }
+    ]
+
+}
